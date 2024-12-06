@@ -1,0 +1,34 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.12.35527.113
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "PZ_18", "PZ_18\PZ_18.csproj", "{1E9C82A6-B3EA-4F55-ABF0-3E93D2CA6E07}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "TestProject", "TestProject\TestProject.csproj", "{89EB45EA-8336-448E-8EDF-78EB6B49D2C8}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Для подключения к БД", "Для подключения к БД", "{2C7D1785-B0CD-4874-AE40-65CCA709BECA}"
+	ProjectSection(SolutionItems) = preProject
+		..\..\..\Desktop\ServiceCenterDB.bak = ..\..\..\Desktop\ServiceCenterDB.bak
+		..\..\..\Desktop\БД.txt = ..\..\..\Desktop\БД.txt
+	EndProjectSection
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{1E9C82A6-B3EA-4F55-ABF0-3E93D2CA6E07}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{1E9C82A6-B3EA-4F55-ABF0-3E93D2CA6E07}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{1E9C82A6-B3EA-4F55-ABF0-3E93D2CA6E07}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{1E9C82A6-B3EA-4F55-ABF0-3E93D2CA6E07}.Release|Any CPU.Build.0 = Release|Any CPU
+		{89EB45EA-8336-448E-8EDF-78EB6B49D2C8}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{89EB45EA-8336-448E-8EDF-78EB6B49D2C8}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{89EB45EA-8336-448E-8EDF-78EB6B49D2C8}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{89EB45EA-8336-448E-8EDF-78EB6B49D2C8}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+EndGlobal
