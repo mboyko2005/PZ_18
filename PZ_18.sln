@@ -7,12 +7,6 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "PZ_18", "PZ_18\PZ_18.csproj
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "TestProject", "TestProject\TestProject.csproj", "{89EB45EA-8336-448E-8EDF-78EB6B49D2C8}"
 EndProject
-Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Для подключения к БД", "Для подключения к БД", "{2C7D1785-B0CD-4874-AE40-65CCA709BECA}"
-	ProjectSection(SolutionItems) = preProject
-		..\..\..\Desktop\ServiceCenterDB.bak = ..\..\..\Desktop\ServiceCenterDB.bak
-		..\..\..\Desktop\БД.txt = ..\..\..\Desktop\БД.txt
-	EndProjectSection
-EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
