@@ -32,6 +32,7 @@
                     <DataGrid x:Name="RequestDataGrid" Grid.Row="1" ItemsSource="{Binding Requests}" AutoGenerateColumns="False">
                         <DataGrid.Columns>
                             <DataGridTextColumn Header="Номер" Binding="{Binding RequestID}"/>
+                            <DataGridTextColumn Header="Тип техники" Binding="{Binding TechTypeName}"/>
                             <DataGridTextColumn Header="Статус" Binding="{Binding RequestStatus}"/>
                             <DataGridTextColumn Header="ФИО клиента" Binding="{Binding ClientFIO}"/>
                             <DataGridTextColumn Header="Телефон клиента" Binding="{Binding ClientPhone}"/>
